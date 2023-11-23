@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      //start else if
+
+      /**
+
+                var age = Number(prompt("please enter your age :"));
+                if (age < 18) {
+                  console.log("you can not enter");
+                } else if (age >= 18 && age < 30) {
+                  console.log("welcome");
+                } else {
+                  console.log("error");
+                }
+
+                **/
+
+      /**
+                var militaryAge = Number(prompt("please enter your age :"));
+                if (militaryAge < 18) {
+                  alert("yon cant go to military");
+                } else if (militaryAge >= 18 && militaryAge < 50) {
+                  alert("you must go to military");
+                } else {
+                  alert("you can buy military");
+                }
+
+                **/
+
+      /**
+                var username = prompt("enter your username :");
+                if (username == "hamidi") {
+                  alert(username + " boro biroon");
+                } else if (username.length == 4) {
+                  alert("hello" + username);
+                } else if (username.length >= 4 && username.length < 10) {
+                  alert("hi" + username);
+                } else {
+                  alert("che khabarete ba in esmet " + username);
+                }
+                **/
+
+      /**
+                var codeMeli = prompt("کد ملی خود را وارد کنید :");
+                if (codeMeli.length == 10) {
+                  console.log("خوش امدین");
+                } else {
+                  console.log("این کد اشتباه است");
+                }
+                **/
+
+      /**
+                var temp = 10;
+                var txt = null;
+                if (temp <= 30 && temp > -40) {
+                  console.log((txt = "we can be alive:))))"));
+                } else {
+                  console.log((txt = "we cant be alive"));
+                }
+                **/
+
+      /**
+    
+      var score = Number(prompt("please enter your score :"));
+      if (score >= 60 && score <= 100) {
+        alert("congratulations you pass");
+      } else if (score >= 0 && score <= 60) {
+        alert("sorry you fail");
+      } else {
+        alert("wrong score");
+      }
+
+      **/
+
+      /**
+             
+            var phoneNumber = prompt("enter your phone number :");
+              if (phoneNumber.length == 11) {
+                console.log("hi");
+              } else {
+                console.log("wrong number");
+              }
+
+              **/
+
+      /**
+              var code = prompt("لطفا کد ارسال شده را وارد کنید :");
+              if (code.length == 4) {
+                alert("کد صحیح است");
+              } else {
+                alert("کد اشتباه است");
+              }
+
+              **/
+
+      /**
+              var adultAge = Number(prompt("please enter your age"));
+              if (adultAge >= 25 && adultAge < 50) {
+                console.log("your an adult person");
+              } else if (adultAge <= 25 && adultAge > 15) {
+                console.log("your young");
+              } else if (adultAge >= 50 && adultAge < 80) {
+                console.log("your an old person");
+              } else if (adultAge <= 15 && adultAge >= 7) {
+                console.log("your child");
+              } else if (adultAge <= 7 && adultAge >= 0) {
+                console.log("your baby gooji gooji googooli");
+              } else if (adultAge >= 80) {
+                console.log("your dead");
+              } else {
+                console.log("wrongggggggggg");
+              }
+
+              **/
+
+      /**
+              var hour = Number("enter your contry hour");
+              if (hour >= 0 && hour < 12) {
+                alert("good morning");
+              } else if (hour >= 12 && hour < 16) {
+                alert("good noon");
+              } else if (hour >= 16 && hour < 18) {
+                alert("good afternoon");
+              } else if (hour >= 18 && hour < 21) {
+                alert("good evening");
+              } else if (hour >= 21 && hour <= 24) {
+                alert("good night");
+              } else {
+                alert("wrong hour");
+              }
+
+              **/
+
+      // end else if
+
+      //start switch case
+
+      /**
+
+              var weekDay = Number(prompt("please enter Day :"));
+              switch (weekDay) {
+                case 1:
+                  alert("sturday");
+                  break;
+                case 2:
+                  alert("sunday");
+                  break;
+                case 3:
+                  alert("monday");
+                  break;
+                case 4:
+                  alert("tuesday");
+                  break;
+                case 5:
+                  alert("wenesday");
+                  break;
+                case 6:
+                  alert("thursday");
+                  break;
+                case 7:
+                  alert("friday");
+                default:
+                  alert("wrong");
+              }
+
+              **/
+
+      /**
+              var ماه_ها = Number(prompt("please enter number of month :"));
+              switch (ماه_ها) {
+                case 1:
+                  alert("فروردین");
+                  break;
+                case 2:
+                  alert("اردیبهشت");
+                  break;
+                case 3:
+                  alert("خرداد");
+                  break;
+                case 4:
+                  alert("تیر");
+                  break;
+                case 5:
+                  alert("مرداد");
+                  break;
+                case 6:
+                  alert("شهریور");
+                  break;
+                case 7:
+                  alert("مهر");
+                  break;
+                case 8:
+                  alert("ابان");
+                  break;
+                case 9:
+                  alert("اذر");
+                  break;
+                case 10:
+                  alert("دی");
+                  break;
+                case 11:
+                  alert("بهمن");
+                  break;
+                case 12:
+                  alert("اسفند");
+                  break;
+                default:
+                  alert("اشتباه است");
+              }
+
+              **/
+
+      /**
+              var seasons = 2;
+              switch (seasons) {
+                case 1:
+                  alert("spring");
+                  break;
+                case 2:
+                  alert("summer");
+                  break;
+                case 3:
+                  alert("autumn");
+                  break;
+                case 4:
+                  alert("winter");
+                  break;
+                default:
+                  alert("............");
+              }
+
+              **/
+
+      /**
+              var tabaqatMojtama = Number(prompt("please enter your floor :"));
+              switch (tabaqatMojtama) {
+                case 1:
+                  alert("first floor");
+                  break;
+                case 2:
+                  alert("second floor");
+                  break;
+                case 3:
+                  alert("third floor");
+                  break;
+                case 4:
+                  alert("fourth floor");
+                  break;
+                default:
+                  alert("***********");
+              }
+
+              **/
+
+      /**
+              var روتین_روز_شب = 2;
+              switch (روتین_روز_شب) {
+                case 1:
+                  alert("صبح بخیر");
+                  break;
+                case 2:
+                  alert("ظهر بخیر");
+                  break;
+                case 3:
+                  alert("بعد از بخیر");
+                  break;
+                case 4:
+                  alert("شب بخیر بخیر");
+                  break;
+                default:
+                  alert("............");
+              }
+
+
+              **/
+
+      // end switch case
+    </script>
+  </body>
+</html>
