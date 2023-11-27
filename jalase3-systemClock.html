@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body id="body">
+    <p
+      id="Day"
+      style="
+        text-align: center;
+        font-weight: 900;
+        font-size: 30px;
+        padding-top: 20px;
+        color: darkblue;
+      "
+    >
+      This day
+    </p>
+
+    <script>
+      const d = new Date();
+      let hour = d.getHours;
+
+      if (hour < 20) {
+        document.getElementById("Day").innerText = "good morning";
+      } else {
+        document.getElementById("Day").innerText = "good night";
+        document.getElementById("Day").style.color = "white";
+        document.getElementById("body").style.backgroundColor = "darkblue";
+      }
+    </script>
+  </body>
+</html>
